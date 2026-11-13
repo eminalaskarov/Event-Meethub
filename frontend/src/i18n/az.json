@@ -1,0 +1,216 @@
+{
+  "common": {
+    "loading": "Yüklənir…",
+    "total": "Cəmi",
+    "demoCheckout": "Demo ödəniş: heç bir məbləğ tutulmur.",
+    "add": "Əlavə et",
+    "remove": "Sil",
+    "live": "Canlı"
+  },
+  "errors": {
+    "generic": "Xəta baş verdi",
+    "invalidData": "Göndərilən məlumat yanlışdır",
+    "invalidDataWith": "Göndərilən məlumat yanlışdır: {{details}}",
+    "requestFailed": "Sorğu uğursuz oldu (status {{status}})",
+    "invalidCredentials": "E-poçt və ya şifrə yanlışdır",
+    "emailTaken": "Bu e-poçt ilə hesab artıq mövcuddur",
+    "codes": {
+      "seat_unavailable": "Seçdiyiniz yer artıq boş deyil.",
+      "event_not_bookable": "Bu tədbir üçün bron açıq deyil.",
+      "hold_missing_or_expired": "Yer saxlama müddəti bitib. Yerləri yenidən seçin.",
+      "ticket_limit_exceeded": "Bir sifariş üçün bilet limitini keçmisiniz.",
+      "invalid_request": "Sorğu yanlışdır.",
+      "sold_out": "Biletlər tükənib."
+    }
+  },
+  "navbar": {
+    "brand": "Tədbir və Görüş Mərkəzi",
+    "language": "Dil",
+    "explore": "Kəşf et",
+    "wallet": "Biletlərim",
+    "scan": "Skan et",
+    "manage": "İdarə et",
+    "login": "Daxil ol",
+    "signup": "Qeydiyyat",
+    "logout": "Çıxış"
+  },
+  "auth": {
+    "email": "E-poçt",
+    "password": "Şifrə",
+    "loginTitle": "Daxil ol",
+    "loginSubmit": "Daxil ol",
+    "loggingIn": "Daxil olunur…",
+    "newHere": "Yenisiniz?",
+    "createAccountLink": "Hesab yaradın",
+    "registerTitle": "Hesab yaradın",
+    "fullName": "Ad və soyad",
+    "accountType": "Hesab növü",
+    "attendee": "İştirakçı",
+    "organizer": "Təşkilatçı",
+    "registerSubmit": "Qeydiyyatdan keç",
+    "creatingAccount": "Hesab yaradılır…",
+    "alreadyRegistered": "Artıq hesabınız var?",
+    "loginLink": "Daxil olun"
+  },
+  "explore": {
+    "title": "Yaxınlıqdakı tədbirləri tapın",
+    "subtitle": "Başqa ərazidə axtarmaq üçün xəritəni sürüşdürün.",
+    "radius": "Radius",
+    "radiusOption": "{{km}} km",
+    "useMyLocation": "Məkanımı göstər",
+    "locationError": "Məkanınızı müəyyən etmək mümkün olmadı.",
+    "upcomingEvents_one": "{{count}} qarşıdakı tədbir",
+    "upcomingEvents_other": "{{count}} qarşıdakı tədbir",
+    "noEvents": "Bu ərazidə hələ dərc edilmiş tədbir yoxdur."
+  },
+  "map": {
+    "missingKey": "Xəritəni göstərmək üçün frontend/.env faylına VITE_GOOGLE_MAPS_API_KEY əlavə edin.",
+    "noUpcomingEvents": "Qarşıdakı tədbir yoxdur"
+  },
+  "format": {
+    "distanceMeters": "{{value}} m uzaqlıqda",
+    "distanceKm": "{{value}} km uzaqlıqda",
+    "generalAdmission": "Ümumi giriş",
+    "seat": "Bölmə {{section}}, sıra {{row}}, yer {{seat}}",
+    "seatShort": "{{section}} · Sıra {{row}} · Yer {{seat}}"
+  },
+  "event": {
+    "loading": "Tədbir yüklənir…"
+  },
+  "eventStatus": {
+    "draft": "Qaralama",
+    "published": "Dərc edilib",
+    "cancelled": "Ləğv edilib",
+    "completed": "Başa çatıb"
+  },
+  "seatStatus": {
+    "available": "Boş",
+    "held": "Tutulub",
+    "booked": "Satılıb",
+    "blocked": "Bağlıdır",
+    "mine": "Sizin seçiminiz"
+  },
+  "seatPlan": {
+    "title": "Yerlərinizi seçin",
+    "connecting": "Qoşulur…",
+    "reconnecting": "Yenidən qoşulur…",
+    "availableCount": "{{count}} boş yer",
+    "legendUnavailable": "Mövcud deyil",
+    "stage": "SƏHNƏ",
+    "selection": "Seçiminiz",
+    "bookingClosed": "Bu tədbir üçün bron açıq deyil.",
+    "tapSeat": "Saxlamaq üçün boş yerə toxunun.",
+    "heldFor": "Saxlanma müddəti: {{time}}",
+    "confirm": "Bronu təsdiqlə",
+    "confirming": "Təsdiqlənir…",
+    "loading": "Yerlər yüklənir…"
+  },
+  "generalBooking": {
+    "title": "Bilet alın",
+    "updating": "Yenilənir",
+    "left": "{{count}} bilet qalıb",
+    "ticketType": "Bilet növü",
+    "quantity": "Say",
+    "noTiers": "Bu tədbir üçün hələ bilet növü yoxdur.",
+    "totalAmount": "Cəmi: {{amount}}",
+    "soldOut": "Biletlər tükənib",
+    "booking": "Bron edilir…",
+    "book": "Bilet al"
+  },
+  "wallet": {
+    "title": "Biletlərim",
+    "loading": "Biletlər yüklənir…",
+    "empty": "Hələ biletiniz yoxdur.",
+    "showQr": "QR kodu göstər",
+    "hideQr": "QR kodu gizlət",
+    "loadingQr": "QR kod yüklənir…",
+    "qrTitle": "Bilet QR kodu"
+  },
+  "ticketStatus": {
+    "valid": "Etibarlı",
+    "used": "İstifadə edilib",
+    "cancelled": "Ləğv edilib"
+  },
+  "scanner": {
+    "title": "Bilet skaneri",
+    "notAssigned": "Sizə skan etmək üçün aktiv tədbir təyin edilməyib.",
+    "event": "Tədbir",
+    "startCamera": "Kameranı aç",
+    "stopCamera": "Kameranı bağla",
+    "cameraError": "Kamera açılmadı. İcazələri yoxlayın; telefonda HTTPS istifadə edin.",
+    "checkedIn": "Giriş vaxtı: {{time}}",
+    "manualLabel": "QR məlumatını əl ilə daxil edin",
+    "validate": "Bileti yoxla",
+    "results": {
+      "accepted": "Keçə bilər",
+      "already_used": "Artıq istifadə edilib",
+      "cancelled": "Bilet ləğv edilib",
+      "wrong_event": "Başqa tədbirin biletidir",
+      "invalid": "Etibarsız QR kod"
+    }
+  },
+  "manage": {
+    "dashboard": {
+      "title": "Tədbirlərin idarə edilməsi",
+      "newVenue": "Yeni məkan",
+      "newEvent": "Yeni tədbir",
+      "loading": "Tədbirlər yüklənir…",
+      "empty": "Hələ heç bir tədbir yaratmamısınız."
+    },
+    "venueForm": {
+      "title": "Yeni məkan",
+      "findWithGoogle": "Google ilə tapın",
+      "searchPlaceholder": "Məkan axtarın",
+      "manualTitle": "Və ya əl ilə daxil edin",
+      "name": "Məkanın adı",
+      "address": "Ünvan",
+      "city": "Şəhər",
+      "country": "Ölkə",
+      "latitude": "Enlik",
+      "longitude": "Uzunluq",
+      "create": "Məkan yarat"
+    },
+    "eventForm": {
+      "title": "Yeni tədbir",
+      "venue": "Məkan",
+      "selectVenue": "Məkan seçin",
+      "addVenue": "Məkan əlavə et",
+      "name": "Ad",
+      "description": "Təsvir",
+      "starts": "Başlama vaxtı",
+      "ends": "Bitmə vaxtı",
+      "seating": "Oturacaq növü",
+      "reserved": "Nömrəli yerlər",
+      "general": "Ümumi giriş",
+      "currency": "Valyuta",
+      "capacity": "Tutum",
+      "create": "Qaralama yarat",
+      "creating": "Yaradılır…"
+    },
+    "event": {
+      "viewPage": "Tədbir səhifəsinə bax",
+      "tiers": "{{step}}. Bilet növləri",
+      "tierName": "Bilet növünün adı",
+      "tierNamePlaceholder": "Ad",
+      "tierPrice": "Bilet qiyməti",
+      "addTier": "Bilet növü əlavə et",
+      "seats": "{{step}}. Yerlər",
+      "seatSummary": "Məkanda {{venueSeats}} yer var, bu tədbirə {{assigned}} yer təyin edilib.",
+      "section": "Bölmə",
+      "rows": "Sıralar (vergüllə ayırın)",
+      "seatsPerRow": "Hər sıradakı yer sayı",
+      "addSeats": "Yer əlavə et",
+      "tier": "Bilet növü",
+      "sectionToAssign": "Təyin ediləcək bölmə",
+      "allSections": "Bütün bölmələr",
+      "assignSeats": "Yerləri təyin et",
+      "staff": "{{step}}. Skan heyəti",
+      "staffEmail": "Əməkdaşın e-poçtu",
+      "publish": "Tədbiri dərc et",
+      "cancel": "Tədbiri ləğv et",
+      "cancelConfirm": "Bu tədbir ləğv edilsin? Bu əməliyyatı geri qaytarmaq mümkün deyil.",
+      "requirementGeneral": "Dərc etməzdən əvvəl bilet növü əlavə edin.",
+      "requirementReserved": "Dərc etməzdən əvvəl bilet növü əlavə edin və yerləri təyin edin."
+    }
+  }
+}

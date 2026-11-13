@@ -1,0 +1,216 @@
+{
+  "common": {
+    "loading": "Loading…",
+    "total": "Total",
+    "demoCheckout": "Demo checkout: no payment is collected.",
+    "add": "Add",
+    "remove": "Remove",
+    "live": "Live"
+  },
+  "errors": {
+    "generic": "Something went wrong",
+    "invalidData": "The submitted data is invalid",
+    "invalidDataWith": "The submitted data is invalid: {{details}}",
+    "requestFailed": "Request failed (status {{status}})",
+    "invalidCredentials": "Incorrect email or password",
+    "emailTaken": "An account with this email already exists",
+    "codes": {
+      "seat_unavailable": "This seat is no longer available.",
+      "event_not_bookable": "This event is not open for booking.",
+      "hold_missing_or_expired": "Your seat hold has expired. Please select your seats again.",
+      "ticket_limit_exceeded": "You have exceeded the ticket limit for one order.",
+      "invalid_request": "The request is invalid.",
+      "sold_out": "Tickets are sold out."
+    }
+  },
+  "navbar": {
+    "brand": "Event & Meetup Hub",
+    "language": "Language",
+    "explore": "Explore",
+    "wallet": "Wallet",
+    "scan": "Scan",
+    "manage": "Manage",
+    "login": "Log in",
+    "signup": "Sign up",
+    "logout": "Log out"
+  },
+  "auth": {
+    "email": "Email",
+    "password": "Password",
+    "loginTitle": "Log in",
+    "loginSubmit": "Log in",
+    "loggingIn": "Logging in…",
+    "newHere": "New here?",
+    "createAccountLink": "Create an account",
+    "registerTitle": "Create an account",
+    "fullName": "Full name",
+    "accountType": "Account type",
+    "attendee": "Attendee",
+    "organizer": "Organizer",
+    "registerSubmit": "Sign up",
+    "creatingAccount": "Creating account…",
+    "alreadyRegistered": "Already registered?",
+    "loginLink": "Log in"
+  },
+  "explore": {
+    "title": "Find events near you",
+    "subtitle": "Move the map to search another area.",
+    "radius": "Radius",
+    "radiusOption": "{{km}} km",
+    "useMyLocation": "Use my location",
+    "locationError": "Your location could not be read.",
+    "upcomingEvents_one": "{{count}} upcoming event",
+    "upcomingEvents_other": "{{count}} upcoming events",
+    "noEvents": "No published events in this area yet."
+  },
+  "map": {
+    "missingKey": "Add VITE_GOOGLE_MAPS_API_KEY to frontend/.env to show the map.",
+    "noUpcomingEvents": "No upcoming events"
+  },
+  "format": {
+    "distanceMeters": "{{value}} m away",
+    "distanceKm": "{{value}} km away",
+    "generalAdmission": "General admission",
+    "seat": "Section {{section}}, Row {{row}}, Seat {{seat}}",
+    "seatShort": "{{section}} · Row {{row}} · Seat {{seat}}"
+  },
+  "event": {
+    "loading": "Loading event…"
+  },
+  "eventStatus": {
+    "draft": "Draft",
+    "published": "Published",
+    "cancelled": "Cancelled",
+    "completed": "Completed"
+  },
+  "seatStatus": {
+    "available": "Available",
+    "held": "Held",
+    "booked": "Booked",
+    "blocked": "Blocked",
+    "mine": "Your hold"
+  },
+  "seatPlan": {
+    "title": "Choose your seats",
+    "connecting": "Connecting…",
+    "reconnecting": "Reconnecting…",
+    "availableCount": "{{count}} available",
+    "legendUnavailable": "Unavailable",
+    "stage": "STAGE",
+    "selection": "Your selection",
+    "bookingClosed": "Booking is not open for this event.",
+    "tapSeat": "Tap an available seat to hold it.",
+    "heldFor": "Held for {{time}}",
+    "confirm": "Confirm booking",
+    "confirming": "Confirming…",
+    "loading": "Loading seats…"
+  },
+  "generalBooking": {
+    "title": "Get tickets",
+    "updating": "Updating",
+    "left": "{{count}} left",
+    "ticketType": "Ticket type",
+    "quantity": "Quantity",
+    "noTiers": "No ticket types are available for this event yet.",
+    "totalAmount": "Total: {{amount}}",
+    "soldOut": "Sold out",
+    "booking": "Booking…",
+    "book": "Book tickets"
+  },
+  "wallet": {
+    "title": "My tickets",
+    "loading": "Loading tickets…",
+    "empty": "You do not have any tickets yet.",
+    "showQr": "Show QR code",
+    "hideQr": "Hide QR code",
+    "loadingQr": "Loading QR code…",
+    "qrTitle": "Ticket QR code"
+  },
+  "ticketStatus": {
+    "valid": "Valid",
+    "used": "Used",
+    "cancelled": "Cancelled"
+  },
+  "scanner": {
+    "title": "Ticket scanner",
+    "notAssigned": "You are not assigned to scan any current event.",
+    "event": "Event",
+    "startCamera": "Start camera",
+    "stopCamera": "Stop camera",
+    "cameraError": "Could not open the camera. Check permissions, and use HTTPS on a phone.",
+    "checkedIn": "Checked in {{time}}",
+    "manualLabel": "Enter QR payload manually",
+    "validate": "Validate ticket",
+    "results": {
+      "accepted": "Admit",
+      "already_used": "Already used",
+      "cancelled": "Ticket cancelled",
+      "wrong_event": "Wrong event",
+      "invalid": "Invalid QR code"
+    }
+  },
+  "manage": {
+    "dashboard": {
+      "title": "Manage events",
+      "newVenue": "New venue",
+      "newEvent": "New event",
+      "loading": "Loading events…",
+      "empty": "You have not created any events yet."
+    },
+    "venueForm": {
+      "title": "New venue",
+      "findWithGoogle": "Find with Google",
+      "searchPlaceholder": "Search for a venue",
+      "manualTitle": "Or enter it manually",
+      "name": "Venue name",
+      "address": "Address",
+      "city": "City",
+      "country": "Country",
+      "latitude": "Latitude",
+      "longitude": "Longitude",
+      "create": "Create venue"
+    },
+    "eventForm": {
+      "title": "New event",
+      "venue": "Venue",
+      "selectVenue": "Select a venue",
+      "addVenue": "Add a venue",
+      "name": "Title",
+      "description": "Description",
+      "starts": "Starts",
+      "ends": "Ends",
+      "seating": "Seating",
+      "reserved": "Reserved seats",
+      "general": "General admission",
+      "currency": "Currency",
+      "capacity": "Capacity",
+      "create": "Create draft",
+      "creating": "Creating…"
+    },
+    "event": {
+      "viewPage": "View event page",
+      "tiers": "{{step}}. Ticket tiers",
+      "tierName": "Tier name",
+      "tierNamePlaceholder": "Name",
+      "tierPrice": "Tier price",
+      "addTier": "Add tier",
+      "seats": "{{step}}. Seats",
+      "seatSummary": "{{venueSeats}} seats in the venue, {{assigned}} assigned to this event.",
+      "section": "Section",
+      "rows": "Rows, separated by commas",
+      "seatsPerRow": "Seats per row",
+      "addSeats": "Add seats",
+      "tier": "Ticket tier",
+      "sectionToAssign": "Section to assign",
+      "allSections": "All sections",
+      "assignSeats": "Assign seats",
+      "staff": "{{step}}. Scanner staff",
+      "staffEmail": "Staff email",
+      "publish": "Publish event",
+      "cancel": "Cancel event",
+      "cancelConfirm": "Cancel this event? This cannot be undone.",
+      "requirementGeneral": "Add a tier before publishing.",
+      "requirementReserved": "Add a tier and assign seats before publishing."
+    }
+  }
+}
